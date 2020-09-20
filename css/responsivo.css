@@ -2,8 +2,8 @@
 @media only screen and (min-width: 788px) and (max-width: 979px){
 
 /*Página Home */	
-	.produtos_lista li{
-		height: 300px;
+	.produtos_lista_responsivo li{
+		height: 300px;  /* Para igualar o tamanho dos containers*/
 	}
 	.produtos_lista h3{
 		padding-top: 20px ;
@@ -59,13 +59,76 @@
 	.produtos_icone{
 		padding-left: 50px;
 	}
-	.qualidade::after{
+	.qualidade:after{
 		display: none;
 	}
-/*Fim Página Home */
+/*Fim Home */
 
 
+/* Página Sobre */
+	.missao h2, .valores h2{
+		font-size: 24px;
+	}
+	
+	.missao p{
+		font-size: 14px;
+		line-height: 20px;
+		padding-right: 0;
+	}
 
+	.valores ul li{
+		font-size: 14px;
+		line-height: 22px;
+	}
+/* Fim Sobre */
 
+/* Página Protuos */
+
+	.produtos{
+		margin-top: 0;
+	}
+
+	.container h2{
+		margin: 60px;
+	}
+
+	.passeio, .esporte, .retro{
+		height:130px;
+	}
+
+	.passeio h2, .esporte h2, .retro h2{
+		padding-top: 20px ;
+	}
+	
+	.icone{
+		margin-top: 20px;
+		margin-bottom: 80px;
+		height:220px;
+		padding: 45px;
+	}
+
+	.retro{
+		margin-bottom: 60px;
+	}
+
+	.orcamento{
+		width: 100%;
+	}
+	
+	.info label, .info input, textarea,.contato, .btn-orcamento{
+		margin-left: 80px;
+	}
+
+	.info label{
+		padding-left: 0;
+	}
+
+	textarea{
+		height:150px;
+	}
+
+	.responsivo_espaco{
+		margin-bottom: 60px;
+	}
 
 }
