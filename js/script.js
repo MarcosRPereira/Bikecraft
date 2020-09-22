@@ -1,10 +1,11 @@
-if(window.SimpleSlide){
+if(window.SimpleSlide){  /*Só funciona se o javascrtipt, 
+                          estiver/for suportado pelo navegador */
   new SimpleSlide ({
-    slide: 'principal', // nome do atributo data-slide="principal"
-    nav: false, // se deve ou não mostrar a navegação
+    slide: 'quote', // nome do atributo data-slide="principal"
+    nav: false, // se mostra ou não a navegação
     auto: true, // se o slide deve passar automaticamente
     time: 5000, // tempo de transição dos slides
-    pauseOnHover: true, // pausa a transição automática
+   
   })
 
   new SimpleSlide ({
@@ -14,4 +15,8 @@ if(window.SimpleSlide){
     time: 5000,
   })
 
+}
+
+if(window.SimpleAnime) {
+  new SimpleAnime({})
 }

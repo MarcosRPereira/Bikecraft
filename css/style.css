@@ -377,6 +377,29 @@ img{
     background: rgb(88, 88, 88);
 }
 
-[data-slide-nav] button.active{
+.js [data-slide-nav] button.active{
     background: #fec63e;
+}
+
+/* Estilos da animação com JS */
+
+.js [data-anime] {
+    opacity: 0;
+}
+
+
+
+/*Personalizando os tipos de animações */
+
+.js .fadeInDown{
+    
+    transform: translate3d(50px,-80px, 0);
+}
+
+
+
+.js .anime{
+    opacity: 1;
+    transform: none;
+    transition: transform 0.8s, opacity 0.8s;
 }
