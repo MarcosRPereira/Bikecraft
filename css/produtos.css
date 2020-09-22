@@ -53,9 +53,6 @@
     margin-top: 40px;
 }
 
-
-
-
 .icone{
     background: black;
     margin-top: 40px;
@@ -64,6 +61,7 @@
 }
 
 .orcamento{
+    width: 100%;
     background-color: black;
     
 }
@@ -90,6 +88,7 @@
     display: block;
     color: white;
     padding: 7px;
+    margin-left: 54px;
     
     
 }
@@ -99,23 +98,28 @@
     background: none;
     padding: 7px;
     color: white;
-    margin-left: 5px;
+    margin-left: 60px;
     width: 90%;
 }
 
-
+.contato{
+    background: black;
+    width:100%
+}
 .contato h3{
     color: #fec63e;
     text-transform: uppercase;
     font-weight: bold;
     padding-bottom: 10px;
     padding-top: 10px;
+    margin-left: 90px;
 
 }
 
 .contato span, .contato p, .contato ul{
     color: white;
     font-size: 14px;
+    margin-left: 90px;
     
 }
 
@@ -130,6 +134,7 @@
 }
 
 .contato ul li{
+    
     padding: 10px;
 
 }
@@ -150,7 +155,7 @@
     margin: 20px 0;
     color: #fec63e;
     border: 3px solid #fec63e;
-    margin-left: 5px;
+    margin-left: 60px;
     letter-spacing: .1em;
     cursor: pointer;
 }
