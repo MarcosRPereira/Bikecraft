@@ -48,6 +48,10 @@
     background: black;
     padding: 50px 0 70px 0;
 }
+
+.portfolio-passeio, .portfolio-retro{
+    margin-top: 20px;
+}
 .portfolio-esporte{
     margin-top: 20px;
 }
